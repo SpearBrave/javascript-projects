@@ -3,6 +3,7 @@
 // Refactor the code to do this. Verify that your change works by updating the console.log statements.
 
 let launchReady = false;
+let launchReady2= true;
 let fuelLevel = 17000;
 let crewStatus = true;
 let computerStatus = 'green';
@@ -19,10 +20,10 @@ console.log("launchReady = ", launchReady);
 
 if (crewStatus && computerStatus === 'green'){
    console.log('Crew & computer cleared.');
-   launchReady = true;
+   launchReady2 = true;
 } else {
    console.log('WARNING: Crew or computer not ready!');
-   launchReady = false;
+   launchReady2 = false;
 }
 
 console.log("launchReady = ", launchReady);
